@@ -1,0 +1,48 @@
+{
+  "name": "pilet-1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {
+    "lib": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^5",
+    "react-router-dom": "^5",
+    "history": "4.10.1",
+    "tslib": "2.4.0",
+    "app": "1.0.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "history": "*",
+    "tslib": "*",
+    "app": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "app"
+  },
+  "peerModules": []
+}

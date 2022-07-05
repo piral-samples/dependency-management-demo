@@ -1,0 +1,54 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^5",
+    "react-router-dom": "^5",
+    "piral-core": "canary",
+    "piral-dashboard": "canary",
+    "piral-menu": "canary",
+    "swr": "^1"
+  },
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build",
+    "postinstall": "piral declaration"
+  },
+  "app": "./src/index.html",
+  "types": "./dist/index.d.ts",
+  "importmap": {
+    "imports": {
+      "swr": "."
+    },
+    "inherit": [
+      "piral-base",
+      "piral-core",
+      "piral"
+    ]
+  },
+  "pilets": {
+    "files": [],
+    "scripts": {},
+    "template": "default",
+    "validators": {},
+    "devDependencies": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": "",
+    "packageOverrides": {}
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "@types/node": "latest"
+  }
+}

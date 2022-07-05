@@ -1,0 +1,20 @@
+{
+  "name": "dependency-management",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "piral debug packages/app",
+    "start:bundled": "pilet debug packages/pilet-1 packages/pilet-2",
+    "start:central": "pilet debug packages/pilet-3 packages/pilet-4",
+    "start:scatter": "pilet debug packages/pilet-5 packages/pilet-6 packages/pilet-7",
+    "start:all": "pilet debug packages/pilet-*"
+  },
+  "devDependencies": {
+    "piral-cli": "canary",
+    "piral-cli-esbuild": "canary",
+    "typescript": "latest"
+  }
+}
