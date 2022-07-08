@@ -32,18 +32,6 @@
       "piral"
     ]
   },
-  "pilets": {
-    "files": [],
-    "scripts": {},
-    "template": "default",
-    "validators": {},
-    "devDependencies": {},
-    "preScaffold": "",
-    "postScaffold": "",
-    "preUpgrade": "",
-    "postUpgrade": "",
-    "packageOverrides": {}
-  },
   "devDependencies": {
     "@types/react": "^18",
     "@types/react-dom": "^18",
