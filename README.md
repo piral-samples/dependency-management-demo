@@ -6,6 +6,10 @@
 
 :zap: Bundle or share dependencies with Piral.
 
+Feel free to play around with the code using StackBlitz.
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/piral-samples/dependency-management-demo)
+
 You can visit this demo at [dependency-management.samples.piral.cloud/](https://dependency-management.samples.piral.cloud/).
 
 ## Getting Started
